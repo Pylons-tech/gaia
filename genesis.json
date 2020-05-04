@@ -123,11 +123,6 @@
         "exported": false
       },
       "params": null,
-      "Pylons": {
-        "Cookbooks": [],
-        "Recipies": [],
-        "Items": []
-      },
       "supply": {
         "supply": []
       },
