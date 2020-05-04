@@ -29,7 +29,7 @@ WORKDIR /root
 COPY --from=build-env /go/bin/gaiad /usr/bin/gaiad
 COPY --from=build-env /go/bin/gaiacli /usr/bin/gaiacli
 
-RUN ["gaiad init"]
+RUN gaiad init pylonschain
 
 # Run gaiad by default, omit entrypoint to ease using container with gaiacli
-CMD ["gaiad start"]
+CMD gaiad start
