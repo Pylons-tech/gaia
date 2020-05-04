@@ -1,0 +1,20 @@
+{
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "account_number": "0",
+        "address": "cosmos1qqq9nqqllyvqfzen9w2sr0zp8jsfnycsjs8qwv",
+        "coins": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [],
+        "original_vesting": [],
+        "sequence_number": "1",
+        "start_time": "0"
+      }
+    ]
+  }
+}
