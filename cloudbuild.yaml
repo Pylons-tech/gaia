@@ -21,7 +21,7 @@ steps:
   args:
   - 'set'
   - 'image'
-  - 'deployment/gaia-1'
+  - 'deployment/gaia'
   - 'gaia=gcr.io/$PROJECT_ID/gaia:$SHORT_SHA'
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
